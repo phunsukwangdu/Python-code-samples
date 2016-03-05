@@ -1,6 +1,6 @@
 for i in range(int(raw_input())):
-    x=raw_input()
-    y=raw_input()
+    x,y=raw_input().split()
+    
     z=0
     for i in x:
         if i in y:
